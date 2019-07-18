@@ -4,7 +4,7 @@ $(function() {
     var id = $(this).data("id");
     var newDevoured = $(this).data("newdevoured");
 
-    var newSleepState = {
+    var newDevouredState = {
       devoured: newDevoured
     };
 
