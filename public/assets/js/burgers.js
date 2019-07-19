@@ -22,12 +22,12 @@ $(function() {
   });
 
   $(".create-form").on("submit", function(event) {
-    // Make sure to preventDefault on a submit event.
+    // Prevent page refresh.
     event.preventDefault();
 
     var newBurger = {
       burger_name: $("#burger-name").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim()
+      devoured: 0,
     };
 
     // Send the POST request.

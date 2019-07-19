@@ -12,10 +12,24 @@
 		<script src="./assets/js/burgers.js"></script>
 	</head>
 
-	<body>
-		<div class='jumbotron'>
+	<body class='bg-dark text-success'>
+		<div class='jumbotron bg-secondary text-light'>
+
 			<h1 class='display-4'>Burgers!</h1>
+
 			<p>Record burgers that you plan to eat! Then eat them!</p>
+
+			<form class="create-form">
+
+      <div class="input-group input-group-lg mb-3">
+        <input type="text" id='burger-name' class='form-control' name='burger-name' placeholder='Add New Burger' aria-label="New Burger" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-success" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+      </div>
+
+    </form>
+
 		</div>
 		{{{ body }}}
 	</body>
