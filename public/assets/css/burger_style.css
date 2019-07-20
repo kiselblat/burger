@@ -1,17 +1,10 @@
 li {
   padding: 5px;
   margin: 5px;
-  /* background: #faebd7; */
 }
 
 .label {
   font-weight: bold;
-}
-
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
 }
 
 .form-group {
@@ -20,8 +13,4 @@ li {
 
 #burger-image {
   width: 100px;
-}
-
-#burger-form {
-  
 }
