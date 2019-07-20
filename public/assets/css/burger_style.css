@@ -18,6 +18,10 @@ li {
   margin-bottom: 5px;
 }
 
-.burger-block {
-  display: inline-block;
+#burger-image {
+  width: 100px;
+}
+
+#burger-form {
+  
 }

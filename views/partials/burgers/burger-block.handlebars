@@ -1,9 +1,9 @@
 <li>
 	{{burger_name}}
 
-	<button class="delete-burger btn btn-success btn-sm float-right" data-id="{{this.id}}"><i class="fa fa-minus"></i></button>
+	<button class="delete-burger btn btn-success btn-sm float-right mx-1" title='Delete' data-id="{{this.id}}"><i class="fa fa-minus"></i></button>
 
-	<button class="change-devoured btn btn-success btn-sm float-right" data-id="{{id}}" data-newdevoured="{{devoured}}">
+	<button class="change-devoured btn btn-success btn-sm float-right mx-1" title='Change State' data-id="{{id}}" data-newdevoured="{{devoured}}">
 		{{#if devoured}}<i class="fa fa-cutlery"></i>{{else}}<i class="fa fa-plus"></i>{{/if}}
 	</button>
 </li>
